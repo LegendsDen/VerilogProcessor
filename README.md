@@ -51,4 +51,4 @@ The ALU is implemented using gate-level multiplexer logic to perform arithmetic 
 
 
 Contributors 
-
+Tanay Goenka
