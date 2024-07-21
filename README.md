@@ -2,11 +2,11 @@
 
 This project implements a simple RISC (Reduced Instruction Set Computing) processor using Verilog. The processor supports basic instructions such as add, sub, store, load, add constant, and jump to an address. The design includes a datapath and a controller, with an ALU (Arithmetic Logic Unit) implemented using gate-level multiplexer logic.
 
-Introduction
+# Introduction
 
 The Simple RISC Processor is a basic educational project designed to demonstrate the implementation of a processor using Verilog HDL (Hardware Description Language). The processor executes a set of predefined instructions and can perform arithmetic operations, memory operations, and control flow operations
 
-Instruction Set
+# Instruction Set
 
 The processor supports the following instructions:
 
@@ -17,7 +17,7 @@ The processor supports the following instructions:
     add constant : Adds a constant value to a register and stores the result in the same register.
     jump : Jumps to a specified address.
 
-Architecture
+# Architecture
 
 The processor architecture consists of the following key components:
 
@@ -35,14 +35,14 @@ The datapath includes the following modules:
     Memory: Holds instructions and data.
     ALU: Performs arithmetic operations (add, sub, add constant).
 
-Controller
+# Controller
 
 The controller generates control signals based on the current instruction to direct the operations of the datapath. It includes:
 
     Instruction Decoder: Decodes the current instruction.
     Control Logic: Generates appropriate control signals for the datapath components.
 
-ALU (Arithmetic Logic Unit)
+# ALU (Arithmetic Logic Unit)
 The ALU is implemented using gate-level multiplexer logic to perform arithmetic operations. It supports the following functions:
 
     Addition
@@ -50,5 +50,7 @@ The ALU is implemented using gate-level multiplexer logic to perform arithmetic 
     Add constant
 
 
-Contributors 
+# Contributors 
 Tanay Goenka
+Sushant Kumar
+
