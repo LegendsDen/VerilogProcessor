@@ -35,14 +35,14 @@ The datapath includes the following modules:
     Memory: Holds instructions and data.
     ALU: Performs arithmetic operations (add, sub, add constant).
 
-# Controller
+ Controller
 
 The controller generates control signals based on the current instruction to direct the operations of the datapath. It includes:
 
     Instruction Decoder: Decodes the current instruction.
     Control Logic: Generates appropriate control signals for the datapath components.
 
-# ALU (Arithmetic Logic Unit)
+ ALU (Arithmetic Logic Unit)
 The ALU is implemented using gate-level multiplexer logic to perform arithmetic operations. It supports the following functions:
 
     Addition
@@ -51,6 +51,6 @@ The ALU is implemented using gate-level multiplexer logic to perform arithmetic 
 
 
 # Contributors 
-Tanay Goenka
-Sushant Kumar
+- [Sushant Kumar](https://github.com/LegendsDen/)
+- [Tanay Goenka](https://github.com/GreekGod01)
 
